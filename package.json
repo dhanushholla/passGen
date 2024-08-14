@@ -1,0 +1,30 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "A package to generate secure passwords from a base string or randomly of specified length with options to include numbers and special characters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "passGen",
+    "dhanush",
+    "password",
+    "passcode",
+    "passwordGenerator",
+    "unique-id"
+  ],
+  "author": "Dhanush Holla M",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanushholla/passGen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhanushholla/passGen/issues"
+  },
+  "homepage": "https://github.com/dhanushholla/passGen#readme"
+}
