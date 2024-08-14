@@ -2,9 +2,9 @@
   "name": "passforge",
   "version": "1.0.0",
   "description": "A package to generate secure passwords from a base string or randomly of specified length with options to include numbers and special characters.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.test.js"
   },
   "keywords": [
     "secure",
