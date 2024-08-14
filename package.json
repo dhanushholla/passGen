@@ -1,5 +1,5 @@
 {
-  "name": "passgen",
+  "name": "passforge",
   "version": "1.0.0",
   "description": "A package to generate secure passwords from a base string or randomly of specified length with options to include numbers and special characters.",
   "main": "index.js",
@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "secure",
+    "passForge",
+    "pass-forge",
+    "forge",
     "passGen",
     "dhanush",
     "password",
