@@ -1,6 +1,6 @@
-# 🎉 PassGen 🚀
+# 🎉 passforge 🚀
 
-Welcome to the **PassGen** package! This tool generates secure, customizable passwords from a base string or randomly based on your preferences. Perfect for creating strong passwords with a splash of fun! 🎨🔐
+Welcome to the **passforge** package! This tool generates secure, customizable passwords from a base string or randomly based on your preferences. Perfect for creating strong passwords with a splash of fun! 🎨🔐
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@ Welcome to the **PassGen** package! This tool generates secure, customizable pas
 First, make sure you have [Node.js](https://nodejs.org/) installed. Then, install the package via npm:
 
 ```bash
-npm install passgen
+npm install passforge
 ```
 
 ## 🛠️ Usage
@@ -25,7 +25,7 @@ Here's how to use the `generateSecureString` function to create awesome password
 If you just want a random password, use the function with a specified length:
 
 ```javascript
-import { generateSecureString } from "passgen";
+import { generateSecureString } from "passforge";
 
 const randomPassword = generateSecureString();
 console.log(`Random Password: ${randomPassword}`);
@@ -38,7 +38,7 @@ This will generate a random password with a default length of 10 characters. You
 Transform a base string into a password with optional numbers and special characters:
 
 ```javascript
-import { generateSecureString } from "passgen";
+import { generateSecureString } from "passforge";
 
 const baseStringPassword = generateSecureString("exampleBaseString");
 console.log(`Base String Password: ${baseStringPassword}`);
