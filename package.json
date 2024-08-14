@@ -1,6 +1,6 @@
 {
   "name": "passforge",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A package to generate secure passwords from a base string or randomly of specified length with options to include numbers and special characters.",
   "main": "src/index.js",
   "scripts": {
