@@ -25,7 +25,9 @@ Here's how to use the `generateSecureString` function to create awesome password
 If you just want a random password, use the function with a specified length:
 
 ```javascript
-import { generateSecureString } from "passforge";
+import { generateSecureString } from "passforge"; // for ES modules type setup
+//                   (or)
+const { generateSecureString } = require("passforge"); // for common Js
 
 const randomPassword = generateSecureString();
 console.log(`Random Password: ${randomPassword}`);
